@@ -4,17 +4,20 @@ rain
 
 light
 
+// Motion sensor
 pir1
 pir2
 
 ifr
 
+// temp sensor
 dht1
 dht2
 
+
+// Dong co
 dir2
-
 step2
-step3
 
+step3
 dir3
