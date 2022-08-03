@@ -1,0 +1,18 @@
+Arduino nano
+ESP32
+
+servo SG90
+A4988 control module và 5.6/2.1V DC stepper motor
+MG996 RC servo motor
+stepper motor size 42 17HS8401
+
+DHT11 sensor
+MQ2 gas sensor
+HC-SR510 motion sensor
+IR sensor module
+Light sensor
+Rain sensor
+Peltier Cooling module TEC1-12710
+Module Relay 12Vdc
+lcd 16x2
+IC 74hc595

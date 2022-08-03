@@ -1,0 +1,16 @@
+
+Vcc=5V
+Phong khach: 
+LCD,
+cam bien chuyen dong,
+Coi bao dong,
+quat, bong dien
+
+
+I2C:
+khoi dong: sda tu 1->0 trước khi scl từ 1->0
+dừng : sda tu 0->1 truoc khi scltu 0->1 
+địa chỉ : 7-10 bit duy nhất để xác định slave giao tiếp
+ 
+cần sơ đồ thuật toán
+lamp,button???

@@ -1,0 +1,9 @@
+Arduino Nano
+8 cổng ADC
+không có giắc nguồn DC mà là cổng mini-USB
+
+8 chan Analog IO
+dong tieu thu 40mA
+22 digital IO
+vi dieu khien ATmega328
+6 ngõ ra PWM(6,8,9,12,13,14)

@@ -1,0 +1,16 @@
+- Là 1 cảm biến nhiệt độ và độ ẩm. 
+- Sử dụng 1 điện trở nhiệt và 1 cảm biến độ ẩm điện dung
+(điện trở nhiệt là thay đổi điện trở khi thay đổi nhiệt độ
+tụ điện cảm biến độ ẩm, điện dung thay đổi khi độ ấm thay đổi)
+- 3 chân : Vcc, Data, GND
+- giao tiếp 1 wire
+- điện áp họng động: 3-5V
+- dòng tiêu thụ: 2.5mA
+- độ ẩm range: 20-90%, sai số +-5 %
+- nhiệt độ range: 0-50 , sai số +- 2 độ
+- tấn số lấy mẫu tối đa: 1Hz, 1 lần/s
+- đầu ra dữ liệu: dữ liệu độ ẩm 8 bit số nguyên và 8 bit thập phân
+                  dữ liệu nhiệt độ 8 bit số nguyên và 8 bit phân đoạn?
+		  8 bit chẵn lẻ
+- để yêu cầu dht11 gửi dữ liệu thì chân I/O phải đặt ở mức thấp trong giây lát
+ và sau đó được giữ ở mức cao 

@@ -1,0 +1,6 @@
+cảm biến khi gas mq2:
+
+-sensitive material Sn02 có độ dẫn điện thấp
+ khi có chất khí dễ cháy thì độ dẫn điện tăng lên
+ nhạy cảm vs các khí LPG, Propane, hydrohen, ch4
+- có 2 dạng đầu ra là analog và digital

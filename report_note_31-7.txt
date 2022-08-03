@@ -1,0 +1,19 @@
+thay ảnh mô hình, test và chụp ảnh
+đổi thành pseudo code
+
+có cần schematic với lưu đồ thuật toán không??
+
+1. overview
+2. design overview
+- giới thiệu uno3 để làm gì nhỉ
+3. DESIGN SYSTEM ACTIVE STRUCTURE FOR SMART HOME
+- giới thiệu về các loại động cơ
+- giới thiệu về nguyên lý hoạt động của các khu vực trong nhà
+4. ELECTRONIC COMPONENTS AND DESIGN SURVIVAL AND ALARM SYSTEM FOR SMART HOME
+- giới thiệu về các con sensor
+- i2c principle trong phần này??? Có nên đưa vào chap 5 hay không
+
+5. SMART HOME CONTROL AND MONITORING SYSTEM
+6. Experimental
+
+phần mục lục thì đưa file code vào chứ chắc bỏ phần này
