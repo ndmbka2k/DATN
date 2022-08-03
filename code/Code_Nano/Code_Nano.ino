@@ -97,15 +97,7 @@ void loop()
 }
 void send_data()
 {
-//  if(millis()-times>1000)
-//  {
-//    String SendESP32 = "";
-//    SendESP32 = A + temp1 + B + temp2 + C + humi1 + D + humi2 + E + gas + F + light + G + pir1 + H + pir2 + I + ifr + K + rem + L;
-//    serialsend.println(SendESP32);
-//    serialsend.flush();
-//    times=millis();
-//  }
-//  else read_sensor();
+  // vi sao phai count den 10
   cnt++;    
   if (cnt>10)
   {
