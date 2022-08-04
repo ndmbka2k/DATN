@@ -97,7 +97,6 @@ void loop()
 }
 void send_data()
 {
-  // vi sao phai count den 10
   cnt++;    
   if (cnt>10)
   {
@@ -131,7 +130,7 @@ void danphoi(boolean n)
   if(n==0)
   {
      //dong
-    digitalWrite(PIN_DIR2,1);
+      (PIN_DIR2,1);
     for(int i=0;i<90;i++)
     {
       digitalWrite(PIN_STEP2,1);
@@ -158,12 +157,12 @@ void autodp()
   //neu co mua
   if(rain>600&&tam2==0)
   {
-    danphoi(0);
+    danphoi(false);
     tam2=1;
   }
   else if(rain<500&&tam2==1)
   {
-    danphoi(1);
+    danphoi(true);
     tam2=0;
   }
 }

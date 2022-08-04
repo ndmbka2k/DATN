@@ -1,0 +1,33 @@
+biến ii??
+
+RX,TX định nghĩalà chân 16,17 nhưng schematic nối là 34,35
+
+khai báo servo 1,2 nhưng trên schematic có cả servo 3?
+
+định nghĩa các chân có đúng giống như là schematic không?
+
+tam1,tam2? la biến gì
+sw1room, sw2room là biến gì
+oc là biến gì
+
+runBlynk -> runTimer(3 giay update Blynk 1 lan) -> nhap mật khẩu(sao ii >2 lại check pass)
+-> lấy dữ liệu từ Uno -> autoWIndow() -> readsw(){ đọc dữ liệu từ nút nhấn}
+
+getData() {
+	hàm shiftwrite để làm gì??
+}
+
+autoWindow(){
+	window(n=2)là trường hợp nào ?
+}
+
+
+
+
+
+
+
+
+
+
+

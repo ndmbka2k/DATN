@@ -1,0 +1,20 @@
+các String de lam gi?
+tam1, tam2 ??? la biến gi 
+pin_SW la chân nao
+byte vuong[] la gi
+softwareSerial(2,3)
+
+lcd backlight, no backlight là hàm gì
+
+
+gas *0.0978 ?
+
+senddata count>10?
+
+danphoi() for i<90?   delay 1,6s?
+tuong tu thi window(byte n??? không phải bool? ) i<250 delay 1,2s??
+
+
+readSensor -> sendData -> nhan nut de bat/tat TV -> auto mo cua so -> auto mo dan phoi
+
+

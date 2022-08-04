@@ -1,21 +1,22 @@
 #include <ArduinoJson.h>
+#include "BlynkEdgent.h"
+#include <LiquidCrystal_I2C.h>
+#include <Servo.h>
+#include <Keypad.h>
+
 #define BLYNK_TEMPLATE_ID "TMPLI1p5A5Ie"
 #define BLYNK_DEVICE_NAME "SmarthomeV6"
 #define BLYNK_AUTH_TOKEN "nsc1BVnOORMKynl7aekQ40UjZT_Rb3oj"
 #define BLYNK_FIRMWARE_VERSION        "0.1.0"
 #define BLYNK_PRINT Serial
 #define APP_DEBUG
-#include "BlynkEdgent.h"
 BlynkTimer timer;
 
-#include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd1(0x3f,16,2);
 LiquidCrystal_I2C lcd(0x27,16,2);
-#include <Servo.h>
 Servo servo1;
 Servo servo2;
 
-#include <Keypad.h>
 int ii;
 char pass[4]={0,0,0,0};
 const byte ROWS = 4;
