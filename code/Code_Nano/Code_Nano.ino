@@ -115,16 +115,30 @@ void send_data()
 }
 void read_sensor()
 {
+    // nhiệt độ trong nhà
     temp1 = dht1.readTemperature();
+    // nhiệt độ phòng ngủ
     temp2 = dht2.readTemperature();
+    // nhiệt độ trong nhà
     humi1 = dht1.readHumidity();
+    // nhiệt độ phòng ngủ
     humi2 = dht2.readHumidity();
     lcd.setCursor(0,0);
     lcd.print("T: "); lcd.print(temp2);lcd.createChar(0,vuong);lcd.setCursor(5,0);lcd.write(0);lcd.print("C ");lcd.print("H: "); lcd.print(humi2);lcd.print(" %  ");
+    
+    // khí gas trong bếp
     gas   = (analogRead(PIN_GAS)*0.0978);       // đổi từ analog 0 4095 to %
+    
+    // dây phơi
     rain  = analogRead(PIN_RAIN);
+    
+    // Cảm biến ánh sáng để bật đèn theo thời thiết
     light = map(analogRead(PIN_LIGHT),0,1024,0,100);
+
+    // Cam bien chuyen dong
+    // ngoai san
     pir1  = digitalRead(PIN_PIR1);
+    // trong bep
     pir2  = digitalRead(PIN_PIR2);
 
     // Cảm biến hồng ngoại phòng khách
