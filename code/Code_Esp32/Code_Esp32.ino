@@ -423,7 +423,6 @@ void updateBlynk()
   Blynk.virtualWrite(V16, !tam1);
 }
 
-// Code cho nay` co chay dc khong dkm????
 void autowindow()
 {
   // tam=0 : Close
@@ -488,6 +487,8 @@ void shiftwrite(unsigned long n)
 void autoo()
 {
   if (ifr == 0)
+
+  // lamp2 đèn chân cầu thang
   {
     outmap = onlamp2 | outmap;
     shiftwrite(outmap);
