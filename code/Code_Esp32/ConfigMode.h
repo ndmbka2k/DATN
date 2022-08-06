@@ -1,4 +1,4 @@
-
+// chế độ web server và lưu trữ dữ liệu, đọc, ghi trên ESP32
 #include <WiFiClient.h>
 #include <WebServer.h>
 #include <DNSServer.h>

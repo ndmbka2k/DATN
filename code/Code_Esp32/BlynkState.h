@@ -1,3 +1,4 @@
+// Chế độ nạp code không dây
 
 enum State {
   MODE_WAIT_CONFIG,

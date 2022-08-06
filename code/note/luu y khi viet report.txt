@@ -1,0 +1,12 @@
+Nội dung lan man, ko tập trung các nội dung chính:
+Chương 1 -Tổng quan cần nêu rõ định nghĩa, vai trò, tính năng, cấu trúc cơ bản của nhà thông minh, các modulé chính, 
+truyền thông, chú ý trích dẫn; ký hiệu đánh số hình vẽ và trích dẫn thiếu (VD tr 13); 
+
+
+Chương 2 là chương cNa:
+yêu cầu, tính năng, thông số; diễn giải quá trình phân tích và đưa ra thiết kế: 
+cấu trúc chung, gt truyền thông, phần cứng (thiết bị, thông số, mạch nguyên lý),  
+phần mềm (thuật toán), cách thức lập trình, giao diện, kết nối hiển thị
+Sai chính tả nhiều, chú ý cấu trúc đồ án cân đối giữa các nội dung, nhiều đoạn copy text (phải viết lại tránh đạo văn)
+Kết quả cần giải thích cách thức hoạt động của mô hình, nhạn xét đánh giá, hướng phát triển; cần có kết luận cho mỗi nội dung và kết luận chung của đồ án
+Quay video mô phỏng hoạt động, chụp ảnh mô hình thật đưa vào phần kết quả

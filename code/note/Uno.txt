@@ -1,5 +1,6 @@
-các String de lam gi?
-tam1, tam2 ??? la biến gi 
+//các String de lam gi?
+Các biến tạm tam1, tam2 ??? la biến gi
+ 
 pin_SW la chân nao
 byte vuong[] la gi
 softwareSerial(2,3)

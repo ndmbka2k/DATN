@@ -1,4 +1,4 @@
-
+// Cấu hình Wifi, chạy chương trình kết nối vs server blink
 extern "C" {
   void app_loop();
   void eraseMcuConfig();

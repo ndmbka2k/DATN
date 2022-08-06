@@ -1,4 +1,4 @@
-
+// Cấu hình nút nhấn và output khi vào các chế độ
 /*
  * Board configuration (see examples below).
  */

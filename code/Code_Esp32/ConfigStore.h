@@ -1,4 +1,4 @@
-
+// Lưu mã bảo mật, tên wifi, địa chỉ IP
 #define CONFIG_FLAG_VALID       0x01
 #define CONFIG_FLAG_STATIC_IP   0x02
 

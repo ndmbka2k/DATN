@@ -5,6 +5,8 @@ SoftwareSerial serialsend(2, 3);
 DHT dht1(4, DHT11);
 DHT dht2(5, DHT11);
 int temp1,temp2,humi1,humi2,gas,rain,pir1,pir2,ifr,rem;
+
+// rem là biến rèm phòng chiếu phim
 unsigned int light;
 boolean tam1,tam2=0;
 byte cnt=0;
@@ -42,7 +44,7 @@ LiquidCrystal_I2C lcd1(0x26,16,2);
 #define PIN_PIR1    A2
 #define PIN_PIR2    A1
 #define PIN_IFR     A0
-#define PIN_SW      11
+#define PIN_SW      11      // cong tac cho dong mo rem phong chieu phium
 //output
 #define PIN_DIR2    6
 #define PIN_STEP2   7
@@ -72,6 +74,8 @@ void loop()
   //Send data to esp32
   read_sensor();
   send_data();
+
+  // nut nhan o phong chieu phim, auto dong rem, bat quat, bat tv
   if(digitalRead(PIN_SW)==0)
   {
     delay(25);
@@ -98,6 +102,8 @@ void loop()
 void send_data()
 {
   cnt++;    
+
+// Để tạo tgian delay cho UART
   if (cnt>10)
   {
     SendESP32 = A + temp1 + B + temp2 + C + humi1 + D + humi2 + E + gas + F + light + G + pir1 + H + pir2 + I + ifr + K + rem + L;
@@ -115,11 +121,13 @@ void read_sensor()
     humi2 = dht2.readHumidity();
     lcd.setCursor(0,0);
     lcd.print("T: "); lcd.print(temp2);lcd.createChar(0,vuong);lcd.setCursor(5,0);lcd.write(0);lcd.print("C ");lcd.print("H: "); lcd.print(humi2);lcd.print(" %  ");
-    gas   = (analogRead(PIN_GAS)*0.0978);
+    gas   = (analogRead(PIN_GAS)*0.0978);       // đổi từ analog 0 4095 to %
     rain  = analogRead(PIN_RAIN);
     light = map(analogRead(PIN_LIGHT),0,1024,0,100);
     pir1  = digitalRead(PIN_PIR1);
     pir2  = digitalRead(PIN_PIR2);
+
+    // Cảm biến hồng ngoại phòng khách
     ifr   = digitalRead(PIN_IFR);
     if(pir1==1) analogWrite(PIN_LEDPWM,light);
     else        digitalWrite(PIN_LEDPWM,0);
@@ -131,6 +139,7 @@ void danphoi(boolean n)
   {
      //dong
       (PIN_DIR2,1);
+      // test để tính tgian mở rèm từ 0->full
     for(int i=0;i<90;i++)
     {
       digitalWrite(PIN_STEP2,1);
@@ -143,9 +152,11 @@ void danphoi(boolean n)
   {
      //mo
     digitalWrite(PIN_DIR2,0);
+    // tgian quay
     for(int i=0;i<90;i++)
     {
       digitalWrite(PIN_STEP2,1);
+      // tốc độ quay
       delayMicroseconds(1600);
       digitalWrite(PIN_STEP2,0);
       delayMicroseconds(1600);
