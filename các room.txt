@@ -1,0 +1,4 @@
+1 Living room
+2 Bed room
+3 Kitchen
+4 Entertainment room

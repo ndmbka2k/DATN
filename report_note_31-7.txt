@@ -1,19 +1,19 @@
-thay ảnh mô hình, test và chụp ảnh
-đổi thành pseudo code
+1. overview( 1 slide) 1p
+2. Design overview (2 slides) 1p
+- Giới thiệu các phòng và nguyên lý hoạt động của các phòng
+- Giới thiệu tổng cộng các component trong mô hình
+3. Desgin MCU (2 slides) 3p
+- Nêu lý do chọn 2 con MCU
+- Giới thiệu các chức năng nổi bật của mỗi con
+- Vai trò của mỗi con trong mô hình 
+4. Design actuators (3 slides) 3p
+- Nêu tổng các module dùng trong mô hình và được sử dụng ở đâu 30s
+- Tóm tắt work flow của từng phòng + mong muốn điều khiển như nào( thông số điều khiển) (2 slides) 2p30 
+5. Design sensor module (3 slides) 3p
+- Nêu tổng các module dùng trong mô hình
+- nêu alarm system, vì sao chọn các số như thế để alarm
+6. Wi-Fi and I2C (1 slide) 1p
+- được giao tiếp giữa các module nào trong mô hình
+7 Kết quả và future work (1 slide) 1p
 
-có cần schematic với lưu đồ thuật toán không??
-
-1. overview
-2. design overview
-- giới thiệu uno3 để làm gì nhỉ
-3. DESIGN SYSTEM ACTIVE STRUCTURE FOR SMART HOME
-- giới thiệu về các loại động cơ
-- giới thiệu về nguyên lý hoạt động của các khu vực trong nhà
-4. ELECTRONIC COMPONENTS AND DESIGN SURVIVAL AND ALARM SYSTEM FOR SMART HOME
-- giới thiệu về các con sensor
-- i2c principle trong phần này??? Có nên đưa vào chap 5 hay không
-
-5. SMART HOME CONTROL AND MONITORING SYSTEM
-6. Experimental
-
-phần mục lục thì đưa file code vào chứ chắc bỏ phần này
+=> Tổng là 13 slide, 12 phút
