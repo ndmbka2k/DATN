@@ -12,6 +12,7 @@
 #define APP_DEBUG
 BlynkTimer timer;
 
+// màn hình cửa chính và living room
 LiquidCrystal_I2C lcd1(0x3f, 16, 2);
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 Servo servo1;

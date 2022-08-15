@@ -35,6 +35,7 @@ byte vuong[] =
   B00000
 };
 #include <LiquidCrystal_I2C.h>
+// Phòng giải trí và phòng ngủ
 LiquidCrystal_I2C lcd(0x27,16,2);
 LiquidCrystal_I2C lcd1(0x26,16,2);
 //input
