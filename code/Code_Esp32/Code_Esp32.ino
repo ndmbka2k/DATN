@@ -33,7 +33,6 @@ byte rowPins[ROWS] = {32, 33, 25, 26};
 byte colPins[COLS] = {27, 14, 13};
 Keypad customKeypad = Keypad(makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS);
 
-// No use
 #define RXD2 16
 #define TXD2 17
 

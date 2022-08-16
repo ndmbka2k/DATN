@@ -47,8 +47,10 @@ LiquidCrystal_I2C lcd1(0x26,16,2);
 #define PIN_IFR     A0
 #define PIN_SW      11      // cong tac cho dong mo rem phong chieu phium
 //output
+// dan phoi
 #define PIN_DIR2    6
 #define PIN_STEP2   7
+// rem cua phong ngu
 #define PIN_DIR3    9
 #define PIN_STEP3   8
 #define PIN_LEDPWM     10
