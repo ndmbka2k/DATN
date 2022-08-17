@@ -1,0 +1,27 @@
+- chào , today i will present you about our 
+- Our project is: , our teams has 2 member: , our instructor is:
+- our presentation is divided into 6 part, our presentation will
+last for 15 minutes, if u have question, feel free to interupt me
+
+
+chap1:
+- the standard of living is improving, so people's demand is also increasing.
+and the Internet now play an important role in our daily life. 
+- all the reasons above leads to many new trend and Smart home is one of those
+--
+
+- So, what is smart home, i think the inteligent of a smart home is shown in 4 
+aspects:
+- In real life, a very basis design of a smart home consist of: 
+
+chap 2
+- Our group feel this topic is suitable for our major, so we try to design a smart home modal with
+functionality to cover  4 aspect as I said above.
+they are : ....
+
+the picture is all the functionality of our home, and the one is the modal we created
+all component we use are listed in the table below
+In the control block we use ardunino and esp 32 because it is very friendly to approach, supply enough pin, has Wifi module,
+and the community is very big so i get support easily. 
+
+
